@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG,
 
 
 main_address = 'https://sh.58.com/fushixm/pn61/?PGTID=0d306794-0000-28d1-d915-3fcc796bb31c&ClickID=1'
-header = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'}
+header = {'user-agent': None}
 
 
 def request_url(header, url):
